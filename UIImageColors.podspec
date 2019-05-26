@@ -12,7 +12,5 @@ Pod::Spec.new do |spec|
   spec.macos.deployment_target = "10.10"
   spec.source_files = "UIImageColors/Sources/*.swift"
   spec.requires_arc = true
-  spec.pod_target_xcconfig = {
-    "SWIFT_VERSION" => "4.2"
-  }
+  spec.swift_versions = ["4.2", "5.0"]
 end
